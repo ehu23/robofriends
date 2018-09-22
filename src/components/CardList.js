@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({robots}) => {
+    //throw new Error('nooo'); //test ErrorBoundry (refresh a lot if in development testing, and not production)
     return (
         <div>
             {   
