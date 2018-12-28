@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Scroll = (props) => { //props.children always exists. Enables custom wrap tags
+//Scroll wraps components (aka renders its props.children) and makes them "scrollable"
+const Scroll = (props) => { 
     return (
         <div style={{overflowY: 'scroll', border: '5px solid black', height: '600px'}}>
             {props.children}

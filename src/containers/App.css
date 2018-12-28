@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'metroregular';
+    src: url('Metro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1 {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: metroregular, Impact, Charcoal, sans-serif;
     color: #0ccac4;
 }
